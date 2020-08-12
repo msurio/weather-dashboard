@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: slategrey;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input {
+    width: 70%;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#search-container button {
+    background-color: slateblue;
+    padding: 15px;
+}
+
+main {
+    float: left;
+    width: 60%;
+}
+
+#city-response {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#weather-forecast {
+    width: 100%;
+    background-color: white;
+    padding: 10px
+}
+
+.forecast-div {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: royalblue;
+}
+
+
+/*just in case I mess up with my floats ...
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+*/
